@@ -1,0 +1,9 @@
+export const WIDTH = 700;
+export const HEIGHT = 700;
+export const PADDING = 10;
+export const NUMBER_OF_OBSTACLES = 8;
+export const PLANE_MOVEMENT_SIZE = 3;
+export const PLANE_WIDTH = 50;
+export const SHOT_SPEED = 5;
+export const SHOT_RADIUS = 5;
+export const SHOT_THROTTLE_TIME = 200;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeBazaar Front Game</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: whitesmoke;
+        min-height: 100vh;
+        width: 100vw;
+      }
+      #app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+      }
+      #canvas {
+        background-color: white;
+        border: 1px solid #DEE4E6;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <canvas width="700" height="700" id="canvas">
+
+      </canvas>
+    </div>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
