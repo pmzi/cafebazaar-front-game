@@ -3,7 +3,11 @@ This is a simple game designed for an internal event of Cafe Bazaar.
 
 ## Installation and Usage
 
-First of all clone the repo. After that install packages:
+First of all clone the repo.
+```
+$ git clone git@github.com:pmzi/cafebazaar-front-game.git
+```
+After that install packages:
 ```
 $ npm i
 ```
